@@ -85,7 +85,6 @@ public class AdjustExtrusionLightActivity extends AppCompatActivity {
           stop(16, get("height"))
         )
       ),
-      fillExtrusionBase(get("min_height")),
       fillExtrusionOpacity(0.9f)
     );
     loadedMapStyle.addLayer(fillExtrusionLayer);
